@@ -1,0 +1,90 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Employee Attendance</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Employee Login</string>
+    <string name="username_hint">Username (5001-6000)</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register New User</string>
+    <string name="login_subtitle">Punch In • Punch Out</string>
+    <string name="login_footer">Secure • Reliable • Easy</string>
+    
+    <!-- Register Screen -->
+    <string name="register_title">Register New User</string>
+    <string name="register_subtitle">Create New Account</string>
+    <string name="register_description">Fill in the details to register</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="cluster_hint">Cluster/Department</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="register_submit_button">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Employee Dashboard</string>
+    <string name="welcome_message">Welcome, %s</string>
+    <string name="employee_id">ID: %s</string>
+    <string name="employee_cluster">Cluster: %s</string>
+    <string name="current_time_label">Current Time</string>
+    <string name="punch_in_button">Punch In</string>
+    <string name="punch_out_button">Punch Out</string>
+    <string name="view_history_button">View Attendance History</string>
+    <string name="logout_button">Logout</string>
+    
+    <!-- Attendance History Screen -->
+    <string name="attendance_history_title">Attendance History</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="no_attendance_data">No attendance records found</string>
+    <string name="punch_in_label">Punch In</string>
+    <string name="punch_out_label">Punch Out</string>
+    <string name="working_hours_label">Working Hours</string>
+    <string name="cluster_label">Cluster: </string>
+    <string name="not_punched_out">Not punched out</string>
+    <string name="in_progress">In progress</string>
+    
+    <!-- Messages -->
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="invalid_username_range">Username must be between 5001-6000</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="invalid_phone_number">Please enter a valid phone number</string>
+    <string name="login_successful">Login successful</string>
+    <string name="registration_successful">Registration successful! Please login.</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="network_error">Network error: %s</string>
+    <string name="punch_in_successful">Punch In successful at %s</string>
+    <string name="punch_out_successful">Punch Out successful at %s</string>
+    <string name="punch_failed">Punch failed</string>
+    <string name="loading_attendance">Loading attendance history...</string>
+    <string name="failed_load_attendance">Failed to load attendance history</string>
+    
+    <!-- Confirmation Dialogs -->
+    <string name="confirm_attendance_title">Confirm Attendance</string>
+    <string name="confirm_punch_in">Are you sure you want to Punch In?</string>
+    <string name="confirm_punch_out">Are you sure you want to Punch Out?</string>
+    <string name="confirm_logout_title">Logout</string>
+    <string name="confirm_logout_message">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Email Report -->
+    <string name="daily_report_subject">Daily Attendance Report - %s</string>
+    <string name="report_generated_footer">Report generated at: %s\n\nThis is an automated report from Employee Attendance System.</string>
+    
+    <!-- Time Formats -->
+    <string name="time_format_display">HH:mm:ss</string>
+    <string name="date_format_display">dd MMM yyyy</string>
+    <string name="datetime_format_api">yyyy-MM-dd HH:mm:ss</string>
+    <string name="date_format_api">yyyy-MM-dd</string>
+    
+    <!-- Working Hours Format -->
+    <string name="working_hours_format">%dh %dm</string>
+    <string name="not_available">N/A</string>
+    
+    <!-- Content Descriptions -->
+    <string name="company_logo_description">Company Logo</string>
+    <string name="punch_in_icon_description">Punch In Icon</string>
+    <string name="punch_out_icon_description">Punch Out Icon</string>
+</resources>
